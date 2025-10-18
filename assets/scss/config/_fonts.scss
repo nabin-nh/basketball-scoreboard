@@ -1,0 +1,15 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'Cursed Timer Ulil';
+    src: url('#{$fontDir}/cursed-timer-ulil.woff2') format('woff2'),
+         url('#{$fontDir}/cursed-timer-ulil.woff') format('woff'),
+         url('#{$fontDir}/cursed-timer-ulil.ttf') format('truetype'),
+         url('#{$fontDir}/cursed-timer-ulil.svg#cursed_timer_ulilregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

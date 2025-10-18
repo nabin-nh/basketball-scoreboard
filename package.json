@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "dependencies": {
+        "laravel-vite-plugin": "^2.0.1",
+        "sass": "^1.93.2",
+        "sass-loader": "^16.0.5",
+        "vite": "^7.1.10"
+    }
+}

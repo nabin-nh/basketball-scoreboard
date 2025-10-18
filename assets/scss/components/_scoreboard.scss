@@ -1,0 +1,84 @@
+h3 {
+    font-size: calc(1.15rem + 1.8vw);
+    margin: 0 0 1.313rem;
+}
+
+@media (min-width: 1200px) {
+    h3 {
+        font-size: 2.5rem;
+    }
+}
+
+.container {
+    background-color: $cloud-burst-blue;
+    color: $smoke-white;
+    padding: 4.25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 35.938rem;
+    margin: 0 auto;
+}
+
+@media (min-width: 430px) {
+    .container {
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+.scoreboard-team-column {
+    text-align: center;
+}
+
+@media (min-width: 430px) {
+    .scoreboard-team-column {
+        width: 9.688rem;
+    }
+}
+
+.scoreboard-count {
+    background-color: $diesel-black;
+    border-radius: 0.313rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.625rem;
+}
+
+.scoreboard-count span {
+    display: block;
+    color: $carnation-red;
+    font-family: 'Cursed Timer Ulil', sans-serif;
+    font-size: calc(1.4625rem + 5.55vw);
+    line-height: calc(3.4625rem + 5.55vw);
+}
+
+@media (min-width: 1200px) {
+    .scoreboard-count span {
+        font-size: 5.625rem;
+        line-height: 7.917rem;
+    }
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.563rem;
+}
+
+.score-increment-btn {
+    width: 2.813rem;
+    height: 2.813rem;
+    background-color: transparent;
+    color: $polo-blue;
+    border: 0.125rem solid $polo-blue;
+    border-radius: 0.313rem;
+    font-family: 'Cursed Timer Ulil', sans-serif;
+    font-size: 1.125rem;
+    line-height: 2.625rem;
+    cursor: pointer;
+}
